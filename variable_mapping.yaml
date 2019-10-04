@@ -1,0 +1,101 @@
+albedo_ave:
+  description: 'Surface albedo'
+  fv3:
+    file: phyf
+    name: albdo_ave
+    transform: to_fraction
+  wrf:
+    name: ALBSOL
+delz:
+  description: '3D Height thickness'
+  fv3:
+    file: dynf
+    name: delz
+  unit: m
+
+ground_flux:
+  description: 'Ground heat flux (instantaneous)'
+  fv3:
+    file: phyf
+    name: gflux
+  unit: 'W m-2'
+  wrf:
+    name: GRDFLX
+orog:
+  description: 'Surface height'
+  fv3:
+    file: phyf
+    name: orog
+  unit: 'm'
+  wrf:
+    name: ter
+pbl_height:
+  description: 'PBL Height'
+  fv3:
+    file: phyf
+    name: hpbl
+  unit: 'm'
+  wrf:
+    name: PBLH
+soil_moisture:
+  description: 'Soil moisture'
+  fv3:
+    file: phyf
+    name: soilw
+  unit: 'm3 m-3'
+  wrf:
+    name: SMOIS
+soil_temp:
+  description: 'Soil temperature'
+  fv3:
+    file: phyf
+    name: soilt1
+  unit: 'K'
+  wrf:
+    name: TSLB
+soil_type:
+  description: 'Soil type'
+  fv3:
+    file: phyf
+    name: sotyp
+  unit: int
+  wrf:
+    name: SOILCAT
+specific_humidity:
+  description: '3D Specific Humidity'
+  fv3:
+    file: dynf
+    name: spfh
+  unit: 'kg kg-1'
+temp:
+  description: '3D Temperature'
+  fv3:
+    file: dynf
+    name: tmp
+  unit: 'K'
+  wrf:
+    name: temp
+temp_sfc:
+  description: 'Surface Temperature'
+  fv3:
+    file: phyf
+    name: tmpsfc
+  unit: 'K'
+  wrf:
+    name: TSK
+u:
+  description: '3D U component of wind'
+  fv3:
+    file: dynf
+    name: ugrd
+  unit: 'm s-1'
+  wrf:
+    name: ua
+v:
+  description: '3D V component of wind'
+  fv3:
+    file: dynf
+    name: vgrd
+  unit: 'm s-1'
+  wrf:
+    name: va
