@@ -1,0 +1,9 @@
+11/6/19
+simple_plot.py
+The simple_plot.py plots a single variable at a single model level from a wrfout or wrfinput file and displays on x11.
+It is set to plot water vapor, you can choose another varaible from the wrfout. You would need to update the plot title.
+No countour intervals or color maps are set in this example.
+There are several domain options that can be commented in/out. For a plot over Colorado counties can be plotted. 
+
+eta2height.py
+This reads wrfout and converts eta levels to heights or pressure to see model level info. Then it can plots the heights/pressure and their spacing between levels.
