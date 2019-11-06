@@ -1,0 +1,5 @@
+11/6/19
+The simple_plot.py plots a single variable at a single model level from a wrfout or wrfinput file and displays on x11.
+It is set to plot water vapor, you can choose another varaible from the wrfout. You would need to update the plot title.
+No countour intervals or color maps are set in this example.
+There are several domain options that can be commented in/out. For a plot over Colorado counties can be plotted. 
