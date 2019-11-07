@@ -8,7 +8,7 @@ There are several domain options that can be commented in/out. For a plot over C
 eta2height.py
 This reads wrfout and converts eta levels to heights or pressure to see model level info. Then it can plots the heights/pressure and their spacing between levels.
 
-
 plot_RAP_wrfout.py
 Plots composite cloud (2D vertical sum of water and ice) from a RAP wrfout file and displays on x11.
 The plot domain is based on the grid domain. There is an example of setting contour intervals.
+
