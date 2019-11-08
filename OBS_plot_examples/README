@@ -1,0 +1,5 @@
+11/7/19
+
+AQPI_MRMS_plot.py
+Simple python script to plot MRMS reflectivity data from a netcdf file.  Note these data files are provided by NSSL for the AQPI case study.  
+Script is setup to grab each elevation angle file available, make a composite, and then plot. The lat/lon grid is made from the dimensions and global attributes in the netcdf file.  It is plotted on a basemap, and two domain examples are available, CONUS and California focused.
